@@ -1,0 +1,148 @@
+/***** NAVBAR *****/
+.navbar-default {
+  background-color: #1f7a7a;
+  border-radius: 0;
+  background-image: none;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+  color: white;
+  font-family: 'Black Hans Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #66ffcc;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+  color: #fff;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #66ffcc;
+  color: #242424;
+}
+
+/*** Portfolio pieces ***/
+.thumbnail {
+  background-color: #fff;
+  background-size: cover;
+  border-color: #29293d;
+  border-width: 2px;
+  width: 95%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.thumbnail_about {
+  text-align: left;
+  padding-left: 20%;
+  font-family: 'Black Hans Sans', sans-serif;
+  font-size: 20px;
+}
+
+.example {
+  color: #29293d;
+  font-family: 'Black Hans Sans', sans-serif;
+  font-weight: bold;
+}
+
+.portfolio-thumbnail:hover {
+  border-color: #ebd122;
+}
+
+.portfolio-title {
+  font-weight: bold;
+}
+
+.portfolio-description {
+}
+
+.portfolio-image {
+}
+
+#about-world {
+  max-height: 200px;
+}
+
+.resume {
+  font-family: 'Black Hans Sans', sans-serif;
+  font-size: 20px;
+  font-weight: regular;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Black Hans Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Black Hans Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+hr {
+  border-color: white;
+  border-width: 2px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: #ebd122;
+}
+
+.jumbotron {
+  background-image: url("../assets/mountains2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 5%;
+}
+
+.jumbotron h2 {
+  font-family: 'Black Hans Sans', sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-family: 'Black Hans Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body {
+  padding-top: 50px;
+  font-family: 'Georgia', serif;
+  background-color: #c2f0f0;
+  
+}
